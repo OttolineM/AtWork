@@ -6,6 +6,9 @@ workflows:
 
     environment:
       flutter: stable
+      vars:
+        SUPABASE_URL: "https://omrlpjefpjmxoyyltuou.supabase.co"
+        SUPABASE_ANON_KEY: "sb_publishable_0pUziBECljFnmerPMr9PQQ_UUwhvIIGsb_publishable_0pUziBECljFnmerPMr9PQQ_UUwhvIIGsb_publishable_0pUziBECljFnmerPMr9PQQ_UUwhvIIGsb_publishable_0pUziBECljFnmerPMr9PQQ_UUwhvIIGsb_publishable_0pUziBECljFnmerPMr9PQQ_UUwhvIIG"
 
     triggering:
       events:
